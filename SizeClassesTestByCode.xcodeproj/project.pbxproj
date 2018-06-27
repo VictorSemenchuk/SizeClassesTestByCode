@@ -63,12 +63,12 @@
 				EFC695DE20E2C04F004CC651 /* AppDelegate.m */,
 				EFC695E020E2C04F004CC651 /* ViewController.h */,
 				EFC695E120E2C04F004CC651 /* ViewController.m */,
+				EFC695F420E2C2F2004CC651 /* SquareView.h */,
+				EFC695F520E2C2F2004CC651 /* SquareView.m */,
 				EFC695E620E2C055004CC651 /* Assets.xcassets */,
 				EFC695E820E2C055004CC651 /* LaunchScreen.storyboard */,
 				EFC695EB20E2C055004CC651 /* Info.plist */,
 				EFC695EC20E2C055004CC651 /* main.m */,
-				EFC695F420E2C2F2004CC651 /* SquareView.h */,
-				EFC695F520E2C2F2004CC651 /* SquareView.m */,
 			);
 			path = SizeClassesTestByCode;
 			sourceTree = "<group>";

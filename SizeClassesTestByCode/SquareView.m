@@ -20,6 +20,7 @@
     self = [super initWithFrame:CGRectZero];
     if (self) {
         self.backgroundColor = color;
+        _isFolded = NO;
         [self setupViews];
     }
     return self;
@@ -60,7 +61,8 @@
 }
 
 - (void)tapButton:(UIButton *)sender {
-    NSLog(@"Tap");
+    [self.delegate wasTappedButtonInSquareWithTag:self.tag];
+    self.isFolded = !self.isFolded;
 }
 
 @end

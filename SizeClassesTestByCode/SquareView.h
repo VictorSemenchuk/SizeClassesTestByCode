@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SquareViewDelegate <NSObject>
+
+- (void)wasTappedButtonInSquareWithTag:(NSInteger)tag;
+
+@end
+
 @interface SquareView : UIView
+
+@property (assign, nonatomic) BOOL isFolded;
+@property (weak, nonatomic) id<SquareViewDelegate> delegate;
 
 - (id)initWithColor:(UIColor *)color;
 
